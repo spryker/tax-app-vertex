@@ -1,0 +1,29 @@
+{
+    "name": "spryker/tax-app-vertex",
+    "type": "library",
+    "description": "TaxApp extension for Vertex app",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "spryker/kernel": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spryker\\": "src/Spryker/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "suggest": {
+        "spryker/calculation": "ADD SUGGEST DESCRIPTION"
+    }
+}
