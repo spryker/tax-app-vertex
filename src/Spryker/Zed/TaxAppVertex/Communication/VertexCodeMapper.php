@@ -183,6 +183,8 @@ class VertexCodeMapper
             return (string)$classCodes[$key];
         }
 
-        return (string)$classCodes[array_rand($classCodes)];
+        $keyHash = (hexdec(substr(sha1($key), 0, 10)) % 10) - 1;
+
+        return (string)$classCodes[$keyHash];
     }
 }
