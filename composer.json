@@ -22,5 +22,6 @@
     },
     "config": {
         "sort-packages": true
-    }
+    },
+    "abandoned": "spryker-eco/vertex"
 }
