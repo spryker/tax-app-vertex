@@ -1,5 +1,8 @@
+# ⚠️ Abandoned
+This package is abandoned. Use [spryker-eco/vertex](https://github.com/spryker-eco/vertex) instead.
+
 # tax-app-vertex
-This is the example of project side integration with Spryker and ACP Vertex app.
+This is **an example** of project-side integration with Spryker and ACP Vertex app.
 This code can be used as a starting point or for a demo.
 
 If you want to add specific Vertex Codes for a specific products, etc., you have to add JSON file with path `{projectRootDir}/data/import/vertex_codes.json` with contents like this:
